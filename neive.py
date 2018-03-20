@@ -85,9 +85,6 @@ pos_vocab_length=len(pos_counter)
 pos_totalword_length=len(pos_stemmed_words)
 pos_probability=probability_calculation(pos_counter,pos_vocab_length,pos_totalword_length)
 
-
-
-
 """Training for the negative data"""
 path_neg="D://bayes//train//neg//"
 neg_data = get_data(path_neg)
